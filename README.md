@@ -1,23 +1,23 @@
-# 🍬 Sweet Shop Management System
+Sweet Shop Management System
 
 A full-stack web application for managing a sweet shop's inventory, sales, and customer purchases.
 
-## 📋 Project Overview
+Project Overview
 
 This is a complete e-commerce solution for a sweet shop with comprehensive inventory management, user authentication, purchase tracking, and admin controls. The system features real-time inventory updates, secure payment processing simulation, and detailed purchase history.
 
-### Key Features
-- ✅ User authentication with JWT tokens
-- ✅ Sweet inventory management (CRUD operations)
-- ✅ Shopping cart with quantity management
-- ✅ Purchase history tracking per user
-- ✅ Admin dashboard with inventory controls
-- ✅ Real-time search and category filtering
-- ✅ Inventory restock management
-- ✅ Purchase payment processing
-- ✅ Responsive UI with TypeScript type safety
+Key Features
+- User authentication with JWT tokens
+- Sweet inventory management (CRUD operations)
+- Shopping cart with quantity management
+- Purchase history tracking per user
+- Admin dashboard with inventory controls -
+- Real-time search and category filtering
+- Inventory restock management
+-  Purchase payment processing
+-  Responsive UI with TypeScript type safety
 
-## 🏗️ Architecture
+## Architecture
 
 ### Backend (FastAPI)
 - **Framework**: FastAPI with Uvicorn
@@ -46,7 +46,7 @@ This is a complete e-commerce solution for a sweet shop with comprehensive inven
 - Protected Routes: Admin-only access control
 - Lazy-loaded pages: Performance optimization
 
-## 🚀 Quick Start Guide
+## Quick Start Guide
 
 ### Prerequisites
 - Python 3.8+
@@ -101,7 +101,7 @@ Frontend runs on `http://localhost:5173` (or next available port)
 docker-compose up
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 sweet_shop_management/
@@ -287,7 +287,7 @@ CREATE TABLE inventory_logs (
 );
 ```
 
-## 🧪 Testing
+## Testing
 
 ### Backend Testing
 ```powershell
@@ -323,7 +323,7 @@ npm run test
 npm run test -- --coverage
 ```
 
-## 🔐 Security Features
+## Security Features
 
 1. **JWT Authentication**: Secure token-based authentication
 2. **Password Hashing**: bcrypt for secure password storage
@@ -350,7 +350,7 @@ npm run build
 # Deploy `dist/` folder to Vercel, Netlify, or static hosting
 ```
 
-## 📝 Development Guidelines
+## Development Guidelines
 
 ### Git Workflow
 ```bash
@@ -469,7 +469,7 @@ feat: Implement purchase history and payment processing
 Co-authored-by: GitHub Copilot <copilot@github.com>
 ```
 
-## 📚 Additional Resources
+## Additional Resources
 
 ### API Documentation
 When running locally, visit:
@@ -514,7 +514,7 @@ npm run test
 npm run lint
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
